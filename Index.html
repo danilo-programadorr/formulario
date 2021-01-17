@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>formulário</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta nome="viewport" concent="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div>
+      <h1 id="topo">formulario de cadastro</h1><br>
+     <strong>
+        <p class="centralizar" ><u>preenchancha as informações</u></p>
+        </strong>
+    </div> <br>
+      <form id="principal">
+         
+        <div class="campo">
+         <label class="cor">nome</label><br>
+           <input type="text" nome="nome" required><br><br>
+          </div>
+         <div class="campo">
+          <label class="cor"> sobrenome</label><br>
+          <input type="text" nome="sobrenome" required><br><br>
+          </div>
+           <div class="campo">
+            <label class="cor">e-mail</label><br>
+          <input type="email" nome="email" required><br><br>
+          </div>
+          <div class="campo">
+            <label class="cor">login de acesso<br> </label>
+            <input type="text" nome="login" required>
+          </div><br>
+            <div class="campo">
+              <label class="cor">senha de acesso<br> </label>
+              <input type="password" required>
+            </div><br>
+          
+        <em  id="titulo">Estado</em>
+        <div>
+          <select  id="select">
+            <option selected disabled value="">selecione</option>
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="PA">PA</option>
+            <option value="SE">SE</option>
+             <option value="MG">MG</option>
+             <option value="DF">DF</option>
+             <option value="AC">AC</option>
+             <option value="AL">AL</option>
+             <option value="AP">AP</option>
+             <option value="MS">MS</option>
+             <option value="BA">BA</option>
+             <option value="RN">RN</option>
+          </select>
+        </div><br><br>
+       
+      </form>
+      
+       <div id="text">
+       OBSERVAÇÃO<br>
+         <textarea rows="4" class="campo"></textarea>
+       </div><br>
+      
+      <div id="botao">
+        <button type="submit">cadastrar</button>
+        </div>
+    
+  </body>
+</html>

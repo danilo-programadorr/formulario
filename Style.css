@@ -1,0 +1,131 @@
+
+.centralizar {
+  text-align: center;
+}
+
+#topo {
+  text-align: center;
+  color: #2185F1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+#principal {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ color: rgba(112,219,147,0.5);
+}
+
+body {
+  background:  #253245;
+  font-family: Sans-Serif;
+  font: 16px;
+ 
+  
+}
+
+p {
+  color: #15aff9;
+  font-weight: bold;
+}
+ 
+.cor{
+  color: #15aff9;
+  font-weight: bold;
+}
+
+em {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 6px;
+}
+
+#botao,button{
+ font-size: 1.2em;
+ background: #EFF8FB ;
+ margin-bottom: 1em;
+ padding: 0.2em 0.6em;
+ text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+ box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+ color: rgb(0,0,0);
+ position: absolute;
+ top: 109%;
+ left: 50%;
+ margin-right: -60%;
+ transform: translate(-50%, -50%);
+ border-radius:6px ;
+}
+#text {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-family: Sans-Serif;
+  width: 26em;
+  font-weight:bold;
+  position: absolute;
+ top: 97%;
+ left: 50%;
+ margin-right: -60%;
+ transform: translate(-50%, -50%);
+  
+}
+
+.campo input:focus {
+  background: #A9BCF5;
+}
+textarea:focus {
+  background: #A9BCF5;
+
+}
+
+.masculino {
+  font-family: Sans-Serif;
+  color: #ffffff;
+  left: 26.3%;
+  top: 75%;
+}
+
+.feminino{
+  font-family: Sans-Serif;
+  color: #ffffff;
+  left: 51.3%;
+  top: 75%;
+}
+
+#sexo {
+  font-family:Sans-Serif ;
+  font-size:0.8em;
+  color:#000000;
+  top: 50%;
+  left: 40%;
+  transform: translate(815%, -600%);
+}
+
+#titulo {
+  
+  left: 50%;
+  top: 50%;
+  font-weight: bold;
+  transform: translate(-60%, 90%);
+}
+
+#botao:hover {
+  background: #c8d3f5;
+  box-shadow: inset rgba(0,0,0,0.2);
+  
+}
+
+#select {
+   
+  top: 47%;
+ left: 80%;
+ margin-right: -70%;
+ transform: translate(57%, -10%);
+}
+
+
